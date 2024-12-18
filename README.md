@@ -74,34 +74,53 @@ python3 -m venv venv  # 仮想環境を作成
 source venv/bin/activate  # 仮想環境を有効化
 ```
 
-マイグレーション・シーディング（コンテナ内）
+## マイグレーション・シーディング（コンテナ内）
+
+Django コンテナに入る
 
 ```
-# Djangoコンテナに入ります
 docker exec -it <django-container-name> bash
+```
 
-# プロジェクトルートに移動
+プロジェクトルートに移動
+
+```
 cd /code
+```
 
-# 新しいマイグレーションファイルを作成
+新しいマイグレーションファイルを作成
+
+```
 python manage.py makemigrations accounts
+```
 
-# マイグレーションを適用してデータベースに反映
+マイグレーションを適用してデータベースに反映
+
+```
 python manage.py migrate
+```
 
-# 適用済みのマイグレーションを確認
+適用済みのマイグレーションを確認
+
+```
 python manage.py showmigrations
+```
 
-# スーパーユーザーを作成
+スーパーユーザーを作成
+
+```
 python manage.py createsuperuser
+
 
 Username (leave blank to use 'root'): kino
 Email address: kawauchi.rec@gmail.com
 Password: Kapple0510
 Password (again): Kapple0510
 Superuser created successfully. # 結果
+```
 
-# スーパーユーザーが正常に作成されたかを確認
+スーパーユーザーが正常に作成されたかを確認
+
+```
 http://localhost:8000/admin/
-
 ```
