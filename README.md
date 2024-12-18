@@ -114,8 +114,8 @@ python manage.py createsuperuser
 
 Username (leave blank to use 'root'): kino
 Email address: kawauchi.rec@gmail.com
-Password: Kapple0510
-Password (again): Kapple0510
+Password: Kapple0510  # TODO:delete
+Password (again): Kapple0510 # TODO:delete
 Superuser created successfully. # 結果
 ```
 
