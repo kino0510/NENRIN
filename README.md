@@ -79,7 +79,7 @@ source venv/bin/activate  # 仮想環境を有効化
 Django コンテナに入る
 
 ```
-docker exec -it <django-container-name> bash
+docker exec -it nenrin-backend-1 bash
 ```
 
 プロジェクトルートに移動
