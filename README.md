@@ -114,8 +114,8 @@ python manage.py createsuperuser
 
 Username (leave blank to use 'root'): kino
 Email address: kawauchi.rec@gmail.com
-Password: Kapple0510  # TODO:delete
-Password (again): Kapple0510 # TODO:delete
+Password: Notionに記載
+Password (again): Notionに記載
 Superuser created successfully. # 結果
 ```
 

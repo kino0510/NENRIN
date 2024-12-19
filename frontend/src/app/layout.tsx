@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "N E N R I N",
+  title: "N E N R I N", //TODO:favicon change
   description: "A platform that connects individuals and organizations, fostering community and purpose after retirement.",
 };
 
